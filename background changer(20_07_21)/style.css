@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Century Gothic", monospace;
+}
+
+main {
+  background-color: #e5ebf0;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 8px 20px;
+  background-color: #333333;
+  /* border: 1px solid #f4f4f4; */
+  border: none;
+  color: #fff;
+  border-radius: 35px;
+  margin: 20px;
+  box-shadow: -10px 10px 20px -10px rgba(0, 11, 32, 1);
+  transition: 0.5s ease-in;
+  outline: none;
+  cursor: pointer;
+}
+
+button:active {
+  transform: translateY(10px);
+}
+
+.color {
+  background-color: aliceblue;
+  padding: 5px 20px;
+  border-radius: 35px;
+}
+#hex {
+  text-transform: uppercase;
+}
